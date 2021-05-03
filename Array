@@ -1,0 +1,90 @@
+//using System;
+
+//namespace Array
+//{
+//class Program
+//{
+//static void Main(string[] args)
+// {
+
+//DECLARE + INITIALIZE: OPTION 1
+
+// string[] studentslist = { "Emmanuel Arago", "Lorwel Ramos", "Missy Tolosa", "Kyle Castronuevo" };
+
+// Console.WriteLine(studentslist[0]);
+// Console.WriteLine(studentslist[1]);
+// Console.WriteLine(studentslist[2]);
+// Console.WriteLine(studentslist[3]);
+// {
+// }
+// }
+//}
+//}
+
+
+//OPTION 2:
+//string[] booktitles = new string[4];
+//using System;
+
+//namespace Array
+//{
+// class Program
+// {
+//static void Main(string[] args){
+
+
+//string[] studentslist = new string[4];
+
+//string[] listofstudents = { "Emmanuel Arago", "Lorwel Ramos", "Missy Tolosa", "Kyle Castronuevo" };
+
+// Console.WriteLine(studentslist[0]);
+// Console.WriteLine(studentslist[1]);
+//Console.WriteLine(studentslist[2]);
+//Console.WriteLine(studentslist[3]);
+// {
+
+
+//}
+// }
+// }
+// }
+
+
+
+//OPTION 3: (implicit data type)
+using System;
+
+namespace Array
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            var Names = new string[4];
+
+            Names[0] = "Emmanuel Arago";
+            Names[1] = "Lorwel Ramos";
+            Names[2] = "Missy Tolosa";
+            Names[3] = "Kyle Castronuevo";
+
+            var names = new[]
+                {"Emmanuel Arago", "Lorwel Ramos",
+                "Missy Tolosa",
+                "Kyle Castronuevo"};
+
+            Console.WriteLine(names[0]);
+            Console.WriteLine(names[1]);
+            Console.WriteLine(names[2]);
+            Console.WriteLine(names[3]);
+            {
+                {
+                }
+            }
+        }
+    }
+}
+
+            
+
+            
